@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.rover-header-container{
+    background-color: #ffffff;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .logo {
+    width: 8vw;
+    height: 6vh;
+  }
+  .rover-header-left a, .rover-header-right a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #7c7c7c;
+  }
+  .nav-bar{
+    display: none;
+  }
+  .rover-hero-container{
+    background-color: #7c7c7c;
+    background-image: url(img-can-dogs-smile-header.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-size: 90%; */
+    height: 65vh;
+  }
+  .rover-hero-container h1 {
+    font-weight:600;
+    margin-bottom: 20px;
+  }
+  .rover-hero-container p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+.rover-middle-section h2{
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    font-weight: 550;
+}
+.rover-facts-container img {
+    width: 4vw;
+}
+.rover-facts-container h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight:600;
+}
+.rover-facts-container p {
+    color: #686868;
+    font-size: 16px;
+}
+.rover-facts-container {
+    display: flex;
+    flex-direction: column;
+  }
+.rover-fact-indiv {
+    display: flex;
+    align-items: start;
+    padding: 20px;
+    margin: 10px 0;
+  }
+.rover-facts {
+    list-style-type: none;
+}
+.checkmark {
+    color: green;
+}
+#btn {
+    width: 45vw;
+}
+#cardHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px;
+}
+#endText{
+    font-size: 14px;
+    text-align: center;
+
+}
+  .rover-action-shot {
+    background-color: #007bff;
+    background: url('Header-Dog-Housing-Requirements.jpg') no-repeat center ;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+  }
+  .rover-action-quote-container {
+    position: absolute;
+    top: 1111px;
+    left: 150px;
+    background-color: #ffffff;
+    border:2px solid #ececec;
+    padding: 20px;
+    max-width: 300px;
+  }
+  .rover-action-dash {
+    color: #168f52;
+  }
+  .rover-quote {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+  }
+  .rover-quote span {
+    color: #7c7c7c;
+    font-weight: bold;
+  }
+  .rover-action-quote-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .rover-123-container {
+    text-align: center;
+    background-color: #ffffff;
+  }
+  .rover-123-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.rover-123-container h2 {
+    font-size: 27px;
+    font-weight: 550;
+}
+  .rover-123-item {
+    min-width: 250px;
+    max-width: 300px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  .rover-123-item img {
+    width: 5vw;
+    margin-bottom: 15px;
+  }
+  .rover-123-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  .rover-123-item p {
+    font-size: 16px;
+    color: #555555;
+  }
+
+  @media (max-width: 992px) {
+    .rover-header-left, .rover-header-right {
+      display: none;
+    }
+    .nav-bar {
+      display: block;
+    }
+    .logo {
+        width: 20vw;
+        height: 5vh;
+      }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 200px;
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: #343a40;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
